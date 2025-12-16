@@ -1,0 +1,31 @@
+Ana Carolina Santos Araujo 
+Bunker Hill Community College 
+Fall 2025
+
+Python Final Project, due Dec 16th 
+
+Professor's requirements: 
+Core: Sqlite database, Pandas for data analysis, 3+ well designated OOP,
+Error handling, CLI interface w/ menus. 
+Choose one: Web Scraping, MatPlotlib, Advanced API, File processing, Text analysis, Task scheduling, Text-based
+
+
+Project scope: create a database for community healthcenters to add or update data about the population and the social determinants of health (SDOH) so organizations can make data-driven decisions.
+
+---------------------------------------------------------------------------------------------
+
+1) Database.py: This file handles database setup and connection logic. It uses SQLite to create a database that stores city-level demographic and SDOH data, ensuring the schema exists before the application runs.
+2) Models.py: This file uses object-oriented programming to represent cities and manage how they are stored and retrieved from the SQLite database.
+3) Main.py: It acts as the control center of the application, managing user interaction through a CLI, coordinating database operations through repositories, validating user input, and triggering data analysis, while keeping all logic modular and maintainable.
+4) Analysis.py: It transforms raw city-level data stored in SQLite into meaningful demographic and social determinant insights using pandas, enabling comparison, ranking, and interpretation of disparities across cities.
+
+---------------------------------------------------------------------------------------------
+References
+
+https://projectbread.org/hunger-by-the-numbers
+https://healthdatatool.mass.gov/state-assessment/ 
+https://www.mass.gov/info-details/communicating-data
+https://www.massleague.org/public-resources/about-community-health-centers/find-a-community-health-center/
+https://data.hrsa.gov/topics/healthcenters/uds/overview?type=AWARDEE&state=MA
+https://lawpd.com/853/SDOH-Dashboard
+
